@@ -1,3 +1,8 @@
+# Create Database
+CREATE DATABASE alx_book_store;
+
+USE alx_book_store;
+
 # Books
 CREATE TABLE Books (
     book_id PRIMARY KEY,
