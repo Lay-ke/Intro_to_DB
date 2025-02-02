@@ -28,8 +28,8 @@ CREATE TABLE Customers (
 
 # Orders
 CREATE TABLE Orders (
-    order_id PRIMARY KEY,
-    customer_id FOREIGN KEY REFERENCES Customers(customer_id),
+    order_id INT PRIMARY KEY,
+    customer_id INT FOREIGN KEY REFERENCES Customers(customer_id),
     order_date DATE
 )
 
